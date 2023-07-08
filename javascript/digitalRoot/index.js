@@ -14,10 +14,10 @@ function digitalRoot(n) {
     return result;
   }
   result = root(n);
-  while (result > 10) {
+  while (result >= 10) {
     result = root(result);
   }
   return result;
 }
 
-console.log(digitalRoot(493193));
+console.log(digitalRoot(923455));
