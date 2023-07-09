@@ -20,4 +20,4 @@ function digitalRoot(n) {
   return result;
 }
 
-console.log(digitalRoot(923455));
+console.log(digitalRoot(123));
